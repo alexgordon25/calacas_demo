@@ -1,0 +1,38 @@
+{
+  "theme": {
+    "slug": "calacas-theme",
+    "name": "Calacas WP Custom Theme",
+    "author": "Daniel Gordon",
+    "PHPNamespace": "WP_Calacas\\WP_Calacas"
+  },
+  "dev": {
+    "browserSync": {
+      "live": true,
+      "proxyURL": "calacas.wp",
+      "bypassPort": "85",
+      "https": false
+    },
+    "styles": {
+      "stage": 3,
+      "autoprefixer": {
+        "grid": false
+      },
+      "importFrom": ["_custom-media.css", "_mixins.css"],
+      "features": {
+        "custom-media-queries": true,
+        "custom-properties": true,
+        "nesting-rules": true
+      }
+    },
+    "debug": {
+      "styles": true,
+      "scripts": false,
+      "phpcs": false
+    }
+  },
+  "export": {
+    "compress": true,
+    "generatePotFile": true,
+    "filesToCopy": ["LICENSE", "readme.txt", "screenshot.png", "acf-json/*", "assets/css/libs/**/*", "assets/js/libs/**/*"]
+  }
+}
