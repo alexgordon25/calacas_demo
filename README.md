@@ -1,5 +1,7 @@
 # Calacas WP Custom Theme
 
+![Theme Screenshot Image](https://raw.githubusercontent.com/alexgordon25/calacas_demo/master/wp-content/themes/calacas-dev/screenshot.png "Calacas WP Theme")
+
 ## Requirements
 
 - PHP, MySQL and a webserver are required.
