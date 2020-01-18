@@ -29,63 +29,199 @@ class Component implements Component_Interface {
 	 * Adds the action and filter hooks to integrate with WordPress.
 	 */
 	public function initialize() {
-		add_action( 'init', array( $this, 'custom_post_type_product' ), 0 );
+		add_action( 'init', array( $this, 'custom_post_type_festival' ), 0 );
+		add_action( 'init', array( $this, 'custom_post_type_event' ), 0 );
+		add_action( 'init', array( $this, 'custom_post_type_artist' ), 0 );
 	}
 
 	/**
-	 * Custom post type cpt_products
+	 * Custom post type festival
 	 *
 	 * @access public
 	 * @return void
 	 */
-	public function custom_post_type_product() {
+	public function custom_post_type_festival() {
 		$labels  = array(
-			'name'                  => _x( 'Products', 'Post Type General Name', 'wp-rig' ),
-			'singular_name'         => _x( 'Product', 'Post Type Singular Name', 'wp-rig' ),
-			'menu_name'             => __( 'Products', 'wp-rig' ),
-			'name_admin_bar'        => __( 'Products', 'wp-rig' ),
-			'archives'              => __( 'Products Archives', 'wp-rig' ),
-			'attributes'            => __( 'Products Attributes', 'wp-rig' ),
+			'name'                  => _x( 'Festival', 'Post Type General Name', 'wp-rig' ),
+			'singular_name'         => _x( 'Festival', 'Post Type Singular Name', 'wp-rig' ),
+			'menu_name'             => __( 'Festivals', 'wp-rig' ),
+			'name_admin_bar'        => __( 'Festivals', 'wp-rig' ),
+			'archives'              => __( 'Festivals Archives', 'wp-rig' ),
+			'attributes'            => __( 'Festivals Attributes', 'wp-rig' ),
 			'parent_item_colon'     => __( 'Parent Item:', 'wp-rig' ),
-			'all_items'             => __( 'All Products', 'wp-rig' ),
-			'add_new_item'          => __( 'Add New Product', 'wp-rig' ),
+			'all_items'             => __( 'All Festivals', 'wp-rig' ),
+			'add_new_item'          => __( 'Add New Festival', 'wp-rig' ),
 			'add_new'               => __( 'Add New', 'wp-rig' ),
-			'new_item'              => __( 'New Product', 'wp-rig' ),
-			'edit_item'             => __( 'Edit Product', 'wp-rig' ),
-			'update_item'           => __( 'Update Product', 'wp-rig' ),
-			'view_item'             => __( 'View Product', 'wp-rig' ),
-			'view_items'            => __( 'View Products', 'wp-rig' ),
-			'search_items'          => __( 'Search Product', 'wp-rig' ),
+			'new_item'              => __( 'New Festival', 'wp-rig' ),
+			'edit_item'             => __( 'Edit Festival', 'wp-rig' ),
+			'update_item'           => __( 'Update Festival', 'wp-rig' ),
+			'view_item'             => __( 'View Festival', 'wp-rig' ),
+			'view_items'            => __( 'View Festivals', 'wp-rig' ),
+			'search_items'          => __( 'Search Festival', 'wp-rig' ),
 			'not_found'             => __( 'Not found', 'wp-rig' ),
 			'not_found_in_trash'    => __( 'Not found in Trash', 'wp-rig' ),
-			'featured_image'        => __( 'Product Featured Image', 'wp-rig' ),
-			'set_featured_image'    => __( 'Set product featured image', 'wp-rig' ),
-			'remove_featured_image' => __( 'Remove product featured image', 'wp-rig' ),
-			'use_featured_image'    => __( 'Use as product featured image', 'wp-rig' ),
-			'insert_into_item'      => __( 'Insert into product', 'wp-rig' ),
-			'uploaded_to_this_item' => __( 'Uploaded to this product', 'wp-rig' ),
-			'items_list'            => __( 'Product list', 'wp-rig' ),
-			'items_list_navigation' => __( 'Products list navigation', 'wp-rig' ),
-			'filter_items_list'     => __( 'Filter Products list', 'wp-rig' ),
+			'featured_image'        => __( 'Festival Featured Image', 'wp-rig' ),
+			'set_featured_image'    => __( 'Set festival featured image', 'wp-rig' ),
+			'remove_featured_image' => __( 'Remove festival featured image', 'wp-rig' ),
+			'use_featured_image'    => __( 'Use as festival featured image', 'wp-rig' ),
+			'insert_into_item'      => __( 'Insert into festival', 'wp-rig' ),
+			'uploaded_to_this_item' => __( 'Uploaded to this festival', 'wp-rig' ),
+			'items_list'            => __( 'Festival list', 'wp-rig' ),
+			'items_list_navigation' => __( 'Festivals list navigation', 'wp-rig' ),
+			'filter_items_list'     => __( 'Filter Festivals list', 'wp-rig' ),
 		);
 		$rewrite = array(
-			'slug'                  => 'product',
+			'slug'                  => 'festival',
 			'with_front'            => true,
 			'pages'                 => true,
 			'feeds'                 => true,
 		);
 		$args = array(
-			'label'                 => __( 'Product', 'wp-rig' ),
-			'description'           => __( 'Product Description', 'wp-rig' ),
+			'label'                 => __( 'Festival', 'wp-rig' ),
+			'description'           => __( 'Festival Description', 'wp-rig' ),
 			'labels'                => $labels,
-			'supports'              => array( 'title', 'editor', 'thumbnail' ),
-			'taxonomies'            => array( 'category', 'post_tag' ),
+			'supports'              => array( 'title', 'editor' ),
+			'taxonomies'            => array(),
 			'hierarchical'          => false,
 			'public'                => true,
 			'show_ui'               => true,
 			'show_in_menu'          => true,
 			'menu_position'         => 20,
-			'menu_icon'             => 'dashicons-feedback',
+			'menu_icon'             => 'dashicons-megaphone',
+			'show_in_admin_bar'     => true,
+			'show_in_nav_menus'     => true,
+			'can_export'            => true,
+			'has_archive'           => true,
+			'exclude_from_search'   => false,
+			'publicly_queryable'    => true,
+			'rewrite'               => $rewrite,
+			'capability_type'       => 'post',
+			'show_in_rest'          => false,
+		);
+		register_post_type( 'festival', $args );
+	}
+
+	/**
+	 * Custom post type event
+	 *
+	 * @access public
+	 * @return void
+	 */
+	public function custom_post_type_event() {
+		$labels  = array(
+			'name'                  => _x( 'Event', 'Post Type General Name', 'wp-rig' ),
+			'singular_name'         => _x( 'Event', 'Post Type Singular Name', 'wp-rig' ),
+			'menu_name'             => __( 'Events', 'wp-rig' ),
+			'name_admin_bar'        => __( 'Events', 'wp-rig' ),
+			'archives'              => __( 'Events Archives', 'wp-rig' ),
+			'attributes'            => __( 'Events Attributes', 'wp-rig' ),
+			'parent_item_colon'     => __( 'Parent Item:', 'wp-rig' ),
+			'all_items'             => __( 'All Events', 'wp-rig' ),
+			'add_new_item'          => __( 'Add New Event', 'wp-rig' ),
+			'add_new'               => __( 'Add New', 'wp-rig' ),
+			'new_item'              => __( 'New Event', 'wp-rig' ),
+			'edit_item'             => __( 'Edit Event', 'wp-rig' ),
+			'update_item'           => __( 'Update Event', 'wp-rig' ),
+			'view_item'             => __( 'View Event', 'wp-rig' ),
+			'view_items'            => __( 'View Events', 'wp-rig' ),
+			'search_items'          => __( 'Search Event', 'wp-rig' ),
+			'not_found'             => __( 'Not found', 'wp-rig' ),
+			'not_found_in_trash'    => __( 'Not found in Trash', 'wp-rig' ),
+			'featured_image'        => __( 'Event Featured Image', 'wp-rig' ),
+			'set_featured_image'    => __( 'Set event featured image', 'wp-rig' ),
+			'remove_featured_image' => __( 'Remove event featured image', 'wp-rig' ),
+			'use_featured_image'    => __( 'Use as event featured image', 'wp-rig' ),
+			'insert_into_item'      => __( 'Insert into event', 'wp-rig' ),
+			'uploaded_to_this_item' => __( 'Uploaded to this event', 'wp-rig' ),
+			'items_list'            => __( 'Event list', 'wp-rig' ),
+			'items_list_navigation' => __( 'Events list navigation', 'wp-rig' ),
+			'filter_items_list'     => __( 'Filter Events list', 'wp-rig' ),
+		);
+		$rewrite = array(
+			'slug'                  => 'event',
+			'with_front'            => true,
+			'pages'                 => true,
+			'feeds'                 => true,
+		);
+		$args = array(
+			'label'                 => __( 'Event', 'wp-rig' ),
+			'description'           => __( 'Event Description', 'wp-rig' ),
+			'labels'                => $labels,
+			'supports'              => array( 'title', 'editor' ),
+			'taxonomies'            => array(),
+			'hierarchical'          => false,
+			'public'                => true,
+			'show_ui'               => true,
+			'show_in_menu'          => true,
+			'menu_position'         => 20,
+			'menu_icon'             => 'dashicons-tickets-alt',
+			'show_in_admin_bar'     => true,
+			'show_in_nav_menus'     => true,
+			'can_export'            => true,
+			'has_archive'           => true,
+			'exclude_from_search'   => false,
+			'publicly_queryable'    => true,
+			'rewrite'               => $rewrite,
+			'capability_type'       => 'post',
+			'show_in_rest'          => false,
+		);
+		register_post_type( 'event', $args );
+	}
+
+	/**
+	 * Custom post type artist
+	 *
+	 * @access public
+	 * @return void
+	 */
+	public function custom_post_type_artist() {
+		$labels  = array(
+			'name'                  => _x( 'Artist', 'Post Type General Name', 'wp-rig' ),
+			'singular_name'         => _x( 'Artist', 'Post Type Singular Name', 'wp-rig' ),
+			'menu_name'             => __( 'Artists', 'wp-rig' ),
+			'name_admin_bar'        => __( 'Artists', 'wp-rig' ),
+			'archives'              => __( 'Artists Archives', 'wp-rig' ),
+			'attributes'            => __( 'Artists Attributes', 'wp-rig' ),
+			'parent_item_colon'     => __( 'Parent Item:', 'wp-rig' ),
+			'all_items'             => __( 'All Artists', 'wp-rig' ),
+			'add_new_item'          => __( 'Add New Artist', 'wp-rig' ),
+			'add_new'               => __( 'Add New', 'wp-rig' ),
+			'new_item'              => __( 'New Artist', 'wp-rig' ),
+			'edit_item'             => __( 'Edit Artist', 'wp-rig' ),
+			'update_item'           => __( 'Update Artist', 'wp-rig' ),
+			'view_item'             => __( 'View Artist', 'wp-rig' ),
+			'view_items'            => __( 'View Artists', 'wp-rig' ),
+			'search_items'          => __( 'Search Artist', 'wp-rig' ),
+			'not_found'             => __( 'Not found', 'wp-rig' ),
+			'not_found_in_trash'    => __( 'Not found in Trash', 'wp-rig' ),
+			'featured_image'        => __( 'Artist Featured Image', 'wp-rig' ),
+			'set_featured_image'    => __( 'Set artist featured image', 'wp-rig' ),
+			'remove_featured_image' => __( 'Remove artist featured image', 'wp-rig' ),
+			'use_featured_image'    => __( 'Use as artist featured image', 'wp-rig' ),
+			'insert_into_item'      => __( 'Insert into artist', 'wp-rig' ),
+			'uploaded_to_this_item' => __( 'Uploaded to this artist', 'wp-rig' ),
+			'items_list'            => __( 'Artist list', 'wp-rig' ),
+			'items_list_navigation' => __( 'Artists list navigation', 'wp-rig' ),
+			'filter_items_list'     => __( 'Filter Artists list', 'wp-rig' ),
+		);
+		$rewrite = array(
+			'slug'                  => 'artist',
+			'with_front'            => true,
+			'pages'                 => true,
+			'feeds'                 => true,
+		);
+		$args = array(
+			'label'                 => __( 'Artist', 'wp-rig' ),
+			'description'           => __( 'Artist Description', 'wp-rig' ),
+			'labels'                => $labels,
+			'supports'              => array( 'title' ),
+			'taxonomies'            => array(),
+			'hierarchical'          => false,
+			'public'                => true,
+			'show_ui'               => true,
+			'show_in_menu'          => true,
+			'menu_position'         => 20,
+			'menu_icon'             => 'dashicons-groups',
 			'show_in_admin_bar'     => true,
 			'show_in_nav_menus'     => true,
 			'can_export'            => true,
@@ -96,6 +232,6 @@ class Component implements Component_Interface {
 			'capability_type'       => 'post',
 			'show_in_rest'          => true,
 		);
-		register_post_type( 'product', $args );
+		register_post_type( 'artist', $args );
 	}
 }

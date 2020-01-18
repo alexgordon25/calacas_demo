@@ -51,15 +51,10 @@ class Component implements Component_Interface {
 		array_unshift(
 			$categories,
 			array(
-				'slug'  => 'gws-blocks',
-				'title' => __( 'GWS Blocks', 'wp-rig' ),
+				'slug'  => 'calacas-blocks',
+				'title' => __( 'Calacas Blocks', 'wp-rig' ),
 				// 'icon'  => 'layout'
 			),
-			array(
-				'slug'  => 'gws-page-blocks',
-				'title' => __( 'GWS Page Blocks', 'wp-rig' ),
-				// 'icon'  => 'layout'
-			)
 		);
 		return $categories;
 	}

@@ -1,10 +1,14 @@
-# Calacas WP Custom Theme
-
 ![Theme Screenshot Image](https://raw.githubusercontent.com/alexgordon25/calacas_demo/master/wp-content/themes/calacas-dev/screenshot.png "Calacas WP Theme")
+
+# Calacas WP Custom Theme
 
 ## Requirements
 
 - PHP, MySQL and a webserver are required.
+
+## Artist Endpoint
+
+- [Artist Endpoint Documentation](https://raw.githubusercontent.com/alexgordon25/calacas_demo/master/ARTIST_ENDPOINT.md)
 
 ## Getting Started
 
