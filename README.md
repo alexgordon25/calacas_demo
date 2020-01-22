@@ -2,7 +2,9 @@
 
 # Calacas WP Custom Theme
 
-Calacas WP Theme is a WordPress Custom Theme based on the starter theme boilerplate of [WP Rig](https://github.com/wprig/wprig). Calacas theme is an adaptation of my personal workflow adapted to work inside the benefits of wp-rig features. Some extra features that you'll find in this theme are: 
+Calacas WP Theme is a WordPress Custom Theme based on the starter theme boilerplate of [WP Rig](https://github.com/wprig/wprig). Calacas theme is an adaptation of my personal workflow applied inside the benefits of wp-rig features. 
+
+Some extra features that you'll find in this theme are:
 
 - Example of custom Post types registration (Festivals, Events, Artists).
 - 2 custom ACF Blocks (Hero and Slideshow).
@@ -13,7 +15,7 @@ Calacas WP Theme is a WordPress Custom Theme based on the starter theme boilerpl
 
 ## Requirements
 
-- PHP, MySQL and a webserver are required.
+- PHP 7.3+, MySQL 5.6+ and a nginx (or apache) webserver are required.
 
 ## Artist Endpoint
 
