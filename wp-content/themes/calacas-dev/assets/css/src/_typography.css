@@ -38,31 +38,27 @@ h1,
 .h1,
 .fs1 {
 	font-size: var(--fs1);
-	letter-spacing: var(--letter-spacing-h1);	
-	font-weight: var(--fw-thin);
+	font-weight: var(--fw-regular);
 }
 
 h2,
 .h2,
 .fs2 {
 	font-size: var(--fs2);
-	letter-spacing: var(--letter-spacing-h2);
-	font-weight: var(--fw-light);
+	font-weight: var(--fw-regular);
 }
 
 h3,
 .h3,
 .fs3 {
 	font-size: var(--fs3);
-	letter-spacing: var(--letter-spacing-h3);
-	font-weight: var(--fw-thin);
+	font-weight: var(--fw-regular);
 }
 
 h4,
 .h4,
 .fs4 {
 	font-size: var(--fs4);
-	letter-spacing: var(--letter-spacing-h4);
 	font-weight: var(--fw-regular);
 }
 
@@ -71,8 +67,7 @@ h5,
 .fs5,
 .lead {
 	font-size: var(--fs5);
-	letter-spacing: var(--letter-spacing-h5);
-	font-weight:var(--fw-light);	
+	font-weight: var(--fw-regular);
 }
 
 h6,
@@ -94,15 +89,13 @@ small,
 	font-size: var(--fs8);
 }
 
-
-.subheading{
-	font-size: var(--fs5);	
+.subheading {
+	font-size: var(--fs5);
 	letter-spacing: var(--letter-spacing-sh);
 	text-transform: uppercase;
 }
 
-
-.p{
+.p {
 	font-size: var(--fs7);
 	letter-spacing: var(--letter-spacing-p);
 }
@@ -118,107 +111,41 @@ small,
 	line-height: 1;
 }
 
-
-
-/*custom font style*/
-
-/* Default headings */
-h1,
-.h1,
-.fs1 {
-	font-size: var(--fs1);
-}
-
-h2,
-.h2,
-.fs2 {
-	font-size: var(--fs2);
-}
-
-h3,
-.h3,
-.fs3 {
-	font-size: var(--fs3);
-}
-
-h4,
-.h4,
-.fs4 {
-	font-size: var(--fs4);
-}
-
-h5,
-.h5,
-.fs5 {
-	font-size: var(--fs5);
-}
-
-h6,
-.h6,
-.fs6 {
-	font-size: var(--fs6);
-}
-
-small,
-.h7,
-.fs7 {
-	font-size: var(--fs7);
-}
-
-.h8,
-.fs8 {
-	font-size: var(--fs8);
-}
-
-.h5,
-.h6,
-.h7,
-.h8,
-.fs5,
-.fs6,
-.fs7,
-.fs8 {
-	line-height: 1;
-}
-
-
-
-
 /* special headings for mastheads and banners. */
 .sup-h1 {
-	font-size: calc(var(--global-font-size) * 2.827);
+	font-size: calc(var(--global-font-size) * 2.5);
 
 	@media (--breakpoint-query) {
-		font-size: calc(var(--global-font-size) * 5.653);
+		font-size: calc(var(--global-font-size) * 3.75);
 	}
 }
 
 .sup-h2 {
-	font-size: calc(var(--global-font-size) * 1.999);
+	font-size: calc(var(--global-font-size) * 2);
 
 	@media (--breakpoint-query) {
-		font-size: calc(var(--global-font-size) * 2.827);
+		font-size: calc(var(--global-font-size) * 2.7);
 	}
 }
 
 .sup-h3 {
-	font-size: calc(var(--global-font-size) * 1.999);
+	font-size: calc(var(--global-font-size) * 1.75);
 
 	@media (--breakpoint-query) {
-		font-size: calc(var(--global-font-size) * 3.998);
+		font-size: calc(var(--global-font-size) * 3.25);
 	}
 }
 
 #page .is-text-inverted {
-	color: var(--color-theme-white);
+	color: var(--color-theme-secondary-dark);
 }
 
 .entry-header h1.entry-title,
 .page-header .page-title {
-	font-size: 2.827;
+	font-size: 2.827rem;
 	line-height: 1.4;
-	margin-top: 1em;
-	margin-bottom: 1em;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 dfn,

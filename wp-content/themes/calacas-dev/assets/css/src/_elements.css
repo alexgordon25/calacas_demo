@@ -30,6 +30,7 @@ body {
 
 /* stylelint-disable */
 body {
+	color: var(--global-font-color);
 	background: var(--global-background-color);
 
 	/* Fallback for when there is no custom background color defined. */

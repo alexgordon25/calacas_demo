@@ -92,16 +92,16 @@
 .btn-primary:visited {
 	border-color: var(--color-theme-primary);
 	background: var(--color-theme-primary);
-	color: var(--color-theme-white);
+	color: var(--color-theme-secondary);
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.is_active {
-	border-color: var(--color-theme-primary-light);
-	background: var(--color-theme-primary-light);
-	color: var(--color-theme-primary);
+	border-color: var(--color-theme-primary-dark);
+	background: var(--color-theme-primary-dark);
+	color: var(--color-theme-secondary);
 }
 
 .btn-secondary,

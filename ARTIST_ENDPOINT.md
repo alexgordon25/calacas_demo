@@ -14,7 +14,13 @@
 
    **Required:**
  
-   None
+   Filter artist by slug name
+
+  `/wp-json/wp/v2/artist?slug=judas-priest`
+
+  Filter artist by event id
+
+  `/wp-json/wp/v2/artist?filter[meta_key]=event_artist&filter[meta_value]=442&filter[meta_compare]=LIKE`
 
 * **Data Params**
 
@@ -72,13 +78,7 @@
 
 * **Data Params**
 
-  Filter artist by slug name
-
-  `/wp-json/wp/v2/artist?slug=judas-priest`
-
-  Filter artist by event id
-
-  `/wp-json/wp/v2/artist?filter[meta_key]=event_artist&filter[meta_value]=442&filter[meta_compare]=LIKE`
+  None
 
 * **Success Response:**
 

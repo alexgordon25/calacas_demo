@@ -1204,8 +1204,9 @@ class Component implements Component_Interface, Templating_Component_Interface {
 		if ( wp_rig()->is_amp() ) {
 			return;
 		}
-
-		wp_enqueue_script( 'font-awesome-kit', 'https://kit.fontawesome.com/7562c580d8.js', array(), 'latest', true );
+		$font_awesome_id = get_field( 'font_awesome_id', 'options' );
+		wp_enqueue_script( 'font-awesome-kit', 'https://kit.fontawesome.com/' . $font_awesome_id . '.js', array(), 'latest', false );
+		wp_script_add_data( 'font-awesome-kit', 'defer', true );
 	}
 
 	/**
@@ -1225,7 +1226,7 @@ class Component implements Component_Interface, Templating_Component_Interface {
 				get_theme_file_uri( $js_ytplayer_path ),
 				array( 'jquery' ),
 				wp_rig()->get_asset_version( get_theme_file_path( $js_ytplayer_path ) ),
-				true
+				false
 			);
 		}
 
@@ -1236,7 +1237,7 @@ class Component implements Component_Interface, Templating_Component_Interface {
 				get_theme_file_uri( $js_foreground_video_path ),
 				array( 'jquery', 'wp-ytplayer' ),
 				wp_rig()->get_asset_version( get_theme_file_path( $js_foreground_video_path ) ),
-				true
+				false
 			);
 		}
 

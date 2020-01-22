@@ -87,7 +87,23 @@ class Component implements Component_Interface, Templating_Component_Interface {
 		if ( $this->is_primary_sidebar_active() ) {
 			global $template;
 
-			if ( ! in_array( basename( $template ), array( 'page.php', 'front-page.php', '404.php', '500.php', 'offline.php' ) ) ) {
+			if (
+				// ! in_array(
+				// 	basename( $template ),
+				// 	array(
+				// 		'page-homepage.php',
+				// 		'archive.php',
+				// 		'single-festival.php',
+				// 		'page.php',
+				// 		'front-page.php',
+				// 		'404.php',
+				// 		'500.php',
+				// 		'offline.php'
+				// 	)
+				// )
+				// ||
+				is_singular( 'post' )
+			) {
 				$classes[] = 'has-sidebar';
 			}
 		}

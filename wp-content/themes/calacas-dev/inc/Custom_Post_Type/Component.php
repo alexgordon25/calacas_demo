@@ -42,11 +42,11 @@ class Component implements Component_Interface {
 	 */
 	public function custom_post_type_festival() {
 		$labels  = array(
-			'name'                  => _x( 'Festival', 'Post Type General Name', 'wp-rig' ),
+			'name'                  => _x( 'Festivals', 'Post Type General Name', 'wp-rig' ),
 			'singular_name'         => _x( 'Festival', 'Post Type Singular Name', 'wp-rig' ),
 			'menu_name'             => __( 'Festivals', 'wp-rig' ),
 			'name_admin_bar'        => __( 'Festivals', 'wp-rig' ),
-			'archives'              => __( 'Festivals Archives', 'wp-rig' ),
+			'archives'              => __( 'Festivals', 'wp-rig' ),
 			'attributes'            => __( 'Festivals Attributes', 'wp-rig' ),
 			'parent_item_colon'     => __( 'Parent Item:', 'wp-rig' ),
 			'all_items'             => __( 'All Festivals', 'wp-rig' ),
@@ -78,7 +78,7 @@ class Component implements Component_Interface {
 		);
 		$args = array(
 			'label'                 => __( 'Festival', 'wp-rig' ),
-			'description'           => __( 'Festival Description', 'wp-rig' ),
+			'description'           => __( 'List of Music Festivals.', 'wp-rig' ),
 			'labels'                => $labels,
 			'supports'              => array( 'title', 'editor' ),
 			'taxonomies'            => array(),
@@ -109,11 +109,11 @@ class Component implements Component_Interface {
 	 */
 	public function custom_post_type_event() {
 		$labels  = array(
-			'name'                  => _x( 'Event', 'Post Type General Name', 'wp-rig' ),
+			'name'                  => _x( 'Events', 'Post Type General Name', 'wp-rig' ),
 			'singular_name'         => _x( 'Event', 'Post Type Singular Name', 'wp-rig' ),
 			'menu_name'             => __( 'Events', 'wp-rig' ),
 			'name_admin_bar'        => __( 'Events', 'wp-rig' ),
-			'archives'              => __( 'Events Archives', 'wp-rig' ),
+			'archives'              => __( 'Events', 'wp-rig' ),
 			'attributes'            => __( 'Events Attributes', 'wp-rig' ),
 			'parent_item_colon'     => __( 'Parent Item:', 'wp-rig' ),
 			'all_items'             => __( 'All Events', 'wp-rig' ),
@@ -145,7 +145,7 @@ class Component implements Component_Interface {
 		);
 		$args = array(
 			'label'                 => __( 'Event', 'wp-rig' ),
-			'description'           => __( 'Event Description', 'wp-rig' ),
+			'description'           => __( 'List of Concerts and Events.', 'wp-rig' ),
 			'labels'                => $labels,
 			'supports'              => array( 'title', 'editor' ),
 			'taxonomies'            => array(),
@@ -176,11 +176,11 @@ class Component implements Component_Interface {
 	 */
 	public function custom_post_type_artist() {
 		$labels  = array(
-			'name'                  => _x( 'Artist', 'Post Type General Name', 'wp-rig' ),
+			'name'                  => _x( 'Artists', 'Post Type General Name', 'wp-rig' ),
 			'singular_name'         => _x( 'Artist', 'Post Type Singular Name', 'wp-rig' ),
 			'menu_name'             => __( 'Artists', 'wp-rig' ),
 			'name_admin_bar'        => __( 'Artists', 'wp-rig' ),
-			'archives'              => __( 'Artists Archives', 'wp-rig' ),
+			'archives'              => __( 'Artists', 'wp-rig' ),
 			'attributes'            => __( 'Artists Attributes', 'wp-rig' ),
 			'parent_item_colon'     => __( 'Parent Item:', 'wp-rig' ),
 			'all_items'             => __( 'All Artists', 'wp-rig' ),
@@ -212,7 +212,7 @@ class Component implements Component_Interface {
 		);
 		$args = array(
 			'label'                 => __( 'Artist', 'wp-rig' ),
-			'description'           => __( 'Artist Description', 'wp-rig' ),
+			'description'           => __( 'List of Artists', 'wp-rig' ),
 			'labels'                => $labels,
 			'supports'              => array( 'title' ),
 			'taxonomies'            => array(),

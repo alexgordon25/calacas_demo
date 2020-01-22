@@ -64,22 +64,32 @@ class Component implements Component_Interface {
 				array(
 					'name'  => __( 'Primary', 'wp-rig' ),
 					'slug'  => 'theme-primary',
-					'color' => '#1bb970',
+					'color' => '#00d7c8',
 				),
 				array(
 					'name'  => __( 'Primary Light', 'wp-rig' ),
 					'slug'  => 'theme-primary-light',
-					'color' => '#a3f7b5',
+					'color' => '#73f3ea',
+				),
+				array(
+					'name'  => __( 'Primary Dark', 'wp-rig' ),
+					'slug'  => 'theme-primary-dark',
+					'color' => '#00a79b',
 				),
 				array(
 					'name'  => __( 'Secondary', 'wp-rig' ),
 					'slug'  => 'theme-secondary',
-					'color' => '#664147',
+					'color' => '#1c1c2a',
 				),
 				array(
 					'name'  => __( 'Secondary Light', 'wp-rig' ),
 					'slug'  => 'theme-secondary-light',
-					'color' => '#c4a69d',
+					'color' => '#3e3e55',
+				),
+				array(
+					'name'  => __( 'Secondary Dark', 'wp-rig' ),
+					'slug'  => 'theme-secondary-dark',
+					'color' => '#14141d',
 				),
 				array(
 					'name'  => __( 'Black', 'wp-rig' ),
@@ -94,7 +104,7 @@ class Component implements Component_Interface {
 				array(
 					'name'  => __( 'Gray', 'wp-rig' ),
 					'slug'  => 'theme-gray',
-					'color' => '#bbb',
+					'color' => '#9e9e9e',
 				),
 				array(
 					'name'  => __( 'Gray-Light', 'wp-rig' ),

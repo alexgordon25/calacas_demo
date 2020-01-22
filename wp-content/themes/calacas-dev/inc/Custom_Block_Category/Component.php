@@ -53,9 +53,9 @@ class Component implements Component_Interface {
 			array(
 				'slug'  => 'calacas-blocks',
 				'title' => __( 'Calacas Blocks', 'wp-rig' ),
-				// 'icon'  => 'layout'
-			),
+			)
 		);
+
 		return $categories;
 	}
 

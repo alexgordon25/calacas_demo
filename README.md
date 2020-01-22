@@ -8,7 +8,7 @@
 
 ## Artist Endpoint
 
-- [Artist Endpoint Documentation](https://raw.githubusercontent.com/alexgordon25/calacas_demo/master/ARTIST_ENDPOINT.md)
+- [Artist Endpoint Documentation](https://github.com/alexgordon25/calacas_demo/blob/master/ARTIST_ENDPOINT.md)
 
 ## Getting Started
 

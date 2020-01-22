@@ -1,0 +1,290 @@
+{
+    "key": "group_5df3dfa420707",
+    "title": "Component - Layout",
+    "fields": [
+        {
+            "key": "field_5df2827518a1f",
+            "label": "Layout",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_5d122bcf882f1",
+            "label": "Block Height",
+            "name": "block_height",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "full-height": "Full Height",
+                "half-height": "Half Height",
+                "min-height": "Min Height"
+            },
+            "default_value": [],
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5e0918373ea59",
+            "label": "Height Unit",
+            "name": "height_unit",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5d122bcf882f1",
+                        "operator": "==",
+                        "value": "min-height"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "px": "px",
+                "vh": "vh"
+            },
+            "allow_null": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5df54018c6d04",
+            "label": "Minimum Height px",
+            "name": "min_height",
+            "type": "range",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5d122bcf882f1",
+                        "operator": "==",
+                        "value": "min-height"
+                    },
+                    {
+                        "field": "field_5e0918373ea59",
+                        "operator": "==",
+                        "value": "px"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 600,
+            "min": "",
+            "max": 1200,
+            "step": "",
+            "prepend": "",
+            "append": "px"
+        },
+        {
+            "key": "field_5e0917c43ea58",
+            "label": "Minimum Height vh",
+            "name": "min_height",
+            "type": "range",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5d122bcf882f1",
+                        "operator": "==",
+                        "value": "min-height"
+                    },
+                    {
+                        "field": "field_5e0918373ea59",
+                        "operator": "==",
+                        "value": "vh"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 100,
+            "min": 0,
+            "max": 200,
+            "step": "",
+            "prepend": "",
+            "append": "vh"
+        },
+        {
+            "key": "field_5df3c44ebc1a7",
+            "label": "Content Container",
+            "name": "content_container",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inner-container": "Boxed",
+                "fluid-container": "Fluid",
+                "full-container": "Full"
+            },
+            "allow_null": 0,
+            "default_value": "fluid-container",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5e0170b68554d",
+            "label": "Content Width",
+            "name": "content_width",
+            "type": "range",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "min": "",
+            "max": "",
+            "step": "",
+            "prepend": "",
+            "append": "%"
+        },
+        {
+            "key": "field_5d4e01f4e8723",
+            "label": "Content Align",
+            "name": "content_align",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "text-left": "<i class=\"fas fa-align-left\"><\/i>",
+                "text-center": "<i class=\"fas fa-align-center\"><\/i>",
+                "text-right": "<i class=\"fas fa-align-right\"><\/i>"
+            },
+            "allow_null": 1,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5dd0cf5e6443a",
+            "label": "Content Vertical Align",
+            "name": "content_vertical_align",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "flex-start": "<i class=\"fas fa-sort-amount-up\"><\/i>",
+                "center": "<i class=\"fas fa-align-center\"><\/i>",
+                "flex-end": "<i class=\"fas fa-sort-amount-down-alt\"><\/i>"
+            },
+            "allow_null": 1,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5df28275328c2",
+            "label": "Padding Top",
+            "name": "padding_top",
+            "type": "text",
+            "instructions": "Spacing above the block. Use valid CSS Units, ex: 10px or 10%.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "<i class=\"dashicons dashicons-arrow-up-alt\"><\/i>",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5df28275328e4",
+            "label": "Padding Bottom",
+            "name": "padding_bottom",
+            "type": "text",
+            "instructions": "Spacing below the block. Use valid CSS Units, ex: 10px or 10%.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "<i class=\"dashicons dashicons-arrow-down-alt\"><\/i>",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 0,
+    "description": "",
+    "modified": 1578089688
+}

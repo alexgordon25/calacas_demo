@@ -1,0 +1,694 @@
+# Copyright (C) 2020 Calacas WP Custom Theme
+# This file is distributed under the same license as the Calacas WP Custom Theme package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Calacas WP Custom Theme\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Daniel Gordon\n"
+"Report-Msgid-Bugs-To: Calacas WP Custom Theme\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. translators: 1: title.
+#: ../calacas-theme/comments.php:38
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: ../calacas-theme/comments.php:44
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../calacas-theme/comments.php:60
+msgid "Comments are closed."
+msgstr ""
+
+#: ../calacas-theme/header.php:36
+msgid "Skip to content"
+msgstr ""
+
+#: ../calacas-theme/inc/Accessibility/Component.php:69
+msgid "Expand child menu"
+msgstr ""
+
+#: ../calacas-theme/inc/Accessibility/Component.php:70
+msgid "Collapse child menu"
+msgstr ""
+
+#. translators: 1: required WP version number, 2: required PHP version number, 3: available WP version number, 4: available PHP version number
+#: ../calacas-theme/inc/back-compat.php:25
+msgid "Calacas WP Custom Theme requires at least WordPress version %1$s and PHP version %2$s. You are running versions %3$s and %3$s respectively. Please update and try again."
+msgstr ""
+
+#. translators: 1: required WP version number, 2: available WP version number
+#: ../calacas-theme/inc/back-compat.php:30
+msgid "Calacas WP Custom Theme requires at least WordPress version %1$s. You are running version %2$s. Please update and try again."
+msgstr ""
+
+#. translators: 1: required PHP version number, 2: available PHP version number
+#: ../calacas-theme/inc/back-compat.php:35
+msgid "Calacas WP Custom Theme requires at least PHP version %1$s. You are running version %2$s. Please update and try again."
+msgstr ""
+
+#. translators: get the title of the video.
+#. translators: get the title of the video.
+#: ../calacas-theme/inc/Carousel/Component.php:154, ../calacas-theme/inc/Custom_Block/Component.php:372
+msgid "Video Background"
+msgstr ""
+
+#: ../calacas-theme/inc/Comments/Component.php:132
+msgid "New comment(s)"
+msgstr ""
+
+#: ../calacas-theme/inc/Customizer/Component.php:77
+msgid "Theme Options"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Block/Component.php:69
+msgid "Hero"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Block/Component.php:70
+msgid "Custom Hero block."
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Block/Component.php:86
+msgid "Slideshow"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Block/Component.php:87
+msgid "Custom Slideshow block."
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Block_Category/Component.php:55
+msgid "Calacas Blocks"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:45
+msgctxt "Post Type General Name"
+msgid "Festivals"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:46
+msgctxt "Post Type Singular Name"
+msgid "Festival"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:47, ../calacas-theme/inc/Custom_Post_Type/Component.php:48, ../calacas-theme/inc/Custom_Post_Type/Component.php:49
+msgid "Festivals"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:50
+msgid "Festivals Attributes"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:51, ../calacas-theme/inc/Custom_Post_Type/Component.php:118, ../calacas-theme/inc/Custom_Post_Type/Component.php:185
+msgid "Parent Item:"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:52
+msgid "All Festivals"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:53
+msgid "Add New Festival"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:54, ../calacas-theme/inc/Custom_Post_Type/Component.php:121, ../calacas-theme/inc/Custom_Post_Type/Component.php:188
+msgid "Add New"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:55
+msgid "New Festival"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:56
+msgid "Edit Festival"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:57
+msgid "Update Festival"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:58
+msgid "View Festival"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:59
+msgid "View Festivals"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:60
+msgid "Search Festival"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:61, ../calacas-theme/inc/Custom_Post_Type/Component.php:128, ../calacas-theme/inc/Custom_Post_Type/Component.php:195
+msgid "Not found"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:62, ../calacas-theme/inc/Custom_Post_Type/Component.php:129, ../calacas-theme/inc/Custom_Post_Type/Component.php:196
+msgid "Not found in Trash"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:63
+msgid "Festival Featured Image"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:64
+msgid "Set festival featured image"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:65
+msgid "Remove festival featured image"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:66
+msgid "Use as festival featured image"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:67
+msgid "Insert into festival"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:68
+msgid "Uploaded to this festival"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:69
+msgid "Festival list"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:70
+msgid "Festivals list navigation"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:71
+msgid "Filter Festivals list"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:80
+msgid "Festival"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:81
+msgid "List of Music Festivals."
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:112
+msgctxt "Post Type General Name"
+msgid "Events"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:113
+msgctxt "Post Type Singular Name"
+msgid "Event"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:114, ../calacas-theme/inc/Custom_Post_Type/Component.php:115, ../calacas-theme/inc/Custom_Post_Type/Component.php:116
+msgid "Events"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:117
+msgid "Events Attributes"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:119
+msgid "All Events"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:120
+msgid "Add New Event"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:122
+msgid "New Event"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:123
+msgid "Edit Event"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:124
+msgid "Update Event"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:125
+msgid "View Event"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:126
+msgid "View Events"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:127
+msgid "Search Event"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:130
+msgid "Event Featured Image"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:131
+msgid "Set event featured image"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:132
+msgid "Remove event featured image"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:133
+msgid "Use as event featured image"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:134
+msgid "Insert into event"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:135
+msgid "Uploaded to this event"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:136
+msgid "Event list"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:137
+msgid "Events list navigation"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:138
+msgid "Filter Events list"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:147
+msgid "Event"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:148
+msgid "List of Concerts and Events."
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:179
+msgctxt "Post Type General Name"
+msgid "Artists"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:180
+msgctxt "Post Type Singular Name"
+msgid "Artist"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:181, ../calacas-theme/inc/Custom_Post_Type/Component.php:182, ../calacas-theme/inc/Custom_Post_Type/Component.php:183
+msgid "Artists"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:184
+msgid "Artists Attributes"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:186
+msgid "All Artists"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:187
+msgid "Add New Artist"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:189
+msgid "New Artist"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:190
+msgid "Edit Artist"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:191
+msgid "Update Artist"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:192
+msgid "View Artist"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:193
+msgid "View Artists"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:194
+msgid "Search Artist"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:197
+msgid "Artist Featured Image"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:198
+msgid "Set artist featured image"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:199
+msgid "Remove artist featured image"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:200
+msgid "Use as artist featured image"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:201
+msgid "Insert into artist"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:202
+msgid "Uploaded to this artist"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:203
+msgid "Artist list"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:204
+msgid "Artists list navigation"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:205
+msgid "Filter Artists list"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:214
+msgid "Artist"
+msgstr ""
+
+#: ../calacas-theme/inc/Custom_Post_Type/Component.php:215
+msgid "List of Artists"
+msgstr ""
+
+#: ../calacas-theme/inc/Editor/Component.php:65, ../calacas-theme/inc/Nav_Menus/Component.php:68
+msgid "Primary"
+msgstr ""
+
+#: ../calacas-theme/inc/Editor/Component.php:70
+msgid "Primary Light"
+msgstr ""
+
+#: ../calacas-theme/inc/Editor/Component.php:75
+msgid "Primary Dark"
+msgstr ""
+
+#: ../calacas-theme/inc/Editor/Component.php:80
+msgid "Secondary"
+msgstr ""
+
+#: ../calacas-theme/inc/Editor/Component.php:85
+msgid "Secondary Light"
+msgstr ""
+
+#: ../calacas-theme/inc/Editor/Component.php:90
+msgid "Secondary Dark"
+msgstr ""
+
+#: ../calacas-theme/inc/Editor/Component.php:95
+msgid "Black"
+msgstr ""
+
+#: ../calacas-theme/inc/Editor/Component.php:100
+msgid "Gray Dark"
+msgstr ""
+
+#: ../calacas-theme/inc/Editor/Component.php:105
+msgid "Gray"
+msgstr ""
+
+#: ../calacas-theme/inc/Editor/Component.php:110
+msgid "Gray-Light"
+msgstr ""
+
+#: ../calacas-theme/inc/Editor/Component.php:115
+msgid "Light"
+msgstr ""
+
+#: ../calacas-theme/inc/Editor/Component.php:120
+msgid "White"
+msgstr ""
+
+#: ../calacas-theme/inc/Editor/Component.php:137
+msgid "Small"
+msgstr ""
+
+#: ../calacas-theme/inc/Editor/Component.php:138
+msgid "S"
+msgstr ""
+
+#: ../calacas-theme/inc/Editor/Component.php:143
+msgid "Medium"
+msgstr ""
+
+#: ../calacas-theme/inc/Editor/Component.php:144
+msgid "M"
+msgstr ""
+
+#: ../calacas-theme/inc/Editor/Component.php:149
+msgid "Large"
+msgstr ""
+
+#: ../calacas-theme/inc/Editor/Component.php:150
+msgid "L"
+msgstr ""
+
+#: ../calacas-theme/inc/Editor/Component.php:155
+msgid "Larger"
+msgstr ""
+
+#: ../calacas-theme/inc/Editor/Component.php:156
+msgid "XL"
+msgstr ""
+
+#: ../calacas-theme/inc/Lazyload/Component.php:89
+msgid "Lazy-load on (default)"
+msgstr ""
+
+#: ../calacas-theme/inc/Lazyload/Component.php:90
+msgid "Lazy-load off"
+msgstr ""
+
+#: ../calacas-theme/inc/Lazyload/Component.php:111
+msgid "Lazy-load images"
+msgstr ""
+
+#: ../calacas-theme/inc/Lazyload/Component.php:114
+msgid "Lazy-loading images means images are loaded only when they are in view. Improves performance, but can result in content jumping around on slower connections."
+msgstr ""
+
+#: ../calacas-theme/inc/Sidebars/Component.php:69
+msgid "Sidebar"
+msgstr ""
+
+#: ../calacas-theme/inc/Sidebars/Component.php:71
+msgid "Add widgets here."
+msgstr ""
+
+#. translators: %s: stylesheet handle
+#: ../calacas-theme/inc/Styles/Component.php:247
+msgid "Invalid theme stylesheet handle: %s"
+msgstr ""
+
+#. translators: 1: classname/type of the variable, 2: interface name
+#: ../calacas-theme/inc/Template_Tags.php:54
+msgid "The theme templating component %1$s does not implement the %2$s interface."
+msgstr ""
+
+#. translators: %s: template tag name
+#: ../calacas-theme/inc/Template_Tags.php:81
+msgid "The template tag %s does not exist."
+msgstr ""
+
+#. translators: 1: template tag method name, 2: component class name
+#: ../calacas-theme/inc/Template_Tags.php:110
+msgid "The template tag method %1$s registered by theme component %2$s must either be a callable or an array."
+msgstr ""
+
+#. translators: 1: template tag method name, 2: component class name
+#: ../calacas-theme/inc/Template_Tags.php:121
+msgid "The template tag method %1$s registered by theme component %2$s conflicts with an already registered template tag of the same name."
+msgstr ""
+
+#. translators: 1: classname/type of the variable, 2: interface name
+#: ../calacas-theme/inc/Theme.php:57
+msgid "The theme component %1$s does not implement the %2$s interface."
+msgstr ""
+
+#. translators: %s: slug
+#: ../calacas-theme/inc/Theme.php:120
+msgid "No theme component with the slug %s exists."
+msgstr ""
+
+#: ../calacas-theme/template-parts/content/entry-artist.php:102
+msgid "Artist profile"
+msgstr ""
+
+#: ../calacas-theme/template-parts/content/entry-artist.php:131, ../calacas-theme/template-parts/content/entry-attachment.php:33, ../calacas-theme/template-parts/content/entry-event.php:131, ../calacas-theme/template-parts/content/entry-festival.php:158, ../calacas-theme/template-parts/content/entry-page.php:32, ../calacas-theme/template-parts/content/entry.php:32
+msgid "Previous:"
+msgstr ""
+
+#: ../calacas-theme/template-parts/content/entry-artist.php:132, ../calacas-theme/template-parts/content/entry-attachment.php:43, ../calacas-theme/template-parts/content/entry-event.php:132, ../calacas-theme/template-parts/content/entry-festival.php:159, ../calacas-theme/template-parts/content/entry-page.php:33, ../calacas-theme/template-parts/content/entry.php:33
+msgid "Next:"
+msgstr ""
+
+#: ../calacas-theme/template-parts/content/entry-attachment.php:49
+msgid "Post navigation"
+msgstr ""
+
+#. translators: %s: post title
+#: ../calacas-theme/template-parts/content/entry_actions.php:21
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: post title
+#: ../calacas-theme/template-parts/content/entry_actions.php:40
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: ../calacas-theme/template-parts/content/entry_content.php:18
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: ../calacas-theme/template-parts/content/entry_content.php:31
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: post date
+#: ../calacas-theme/template-parts/content/entry_meta.php:63
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. translators: %s: post author
+#: ../calacas-theme/template-parts/content/entry_meta.php:76
+msgctxt "post author"
+msgid "By %s"
+msgstr ""
+
+#. translators: %s: post author
+#: ../calacas-theme/template-parts/content/entry_meta.php:79
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: %s: post parent title
+#: ../calacas-theme/template-parts/content/entry_meta.php:95
+msgctxt "post parent"
+msgid "In %s"
+msgstr ""
+
+#. translators: %s: post parent title
+#: ../calacas-theme/template-parts/content/entry_meta.php:98
+msgctxt "post parent"
+msgid "in %s"
+msgstr ""
+
+#. translators: separator between taxonomy terms
+#: ../calacas-theme/template-parts/content/entry_taxonomies.php:24
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: %s: list of taxonomy terms
+#: ../calacas-theme/template-parts/content/entry_taxonomies.php:31
+msgid "Posted in %s"
+msgstr ""
+
+#. translators: %s: list of taxonomy terms
+#: ../calacas-theme/template-parts/content/entry_taxonomies.php:37
+msgid "Tagged %s"
+msgstr ""
+
+#. translators: %s: taxonomy name
+#: ../calacas-theme/template-parts/content/entry_taxonomies.php:44
+msgid "%s:"
+msgstr ""
+
+#: ../calacas-theme/template-parts/content/error-404.php:16
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: ../calacas-theme/template-parts/content/error-404.php:27
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: ../calacas-theme/template-parts/content/error-404.php:45
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: ../calacas-theme/template-parts/content/error-500.php:14
+msgid "Oops! Something went wrong."
+msgstr ""
+
+#: ../calacas-theme/template-parts/content/error-offline.php:14
+msgid "Oops! It looks like you&#8217;re offline."
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: ../calacas-theme/template-parts/content/error.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../calacas-theme/template-parts/content/error.php:38
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: ../calacas-theme/template-parts/content/error.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: ../calacas-theme/template-parts/content/page_header.php:14
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../calacas-theme/template-parts/content/page_header.php:22
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: %s: search query
+#: ../calacas-theme/template-parts/content/page_header.php:41
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../calacas-theme/template-parts/content/pagination.php:13
+msgctxt "previous set of search results"
+msgid "Previous"
+msgstr ""
+
+#: ../calacas-theme/template-parts/content/pagination.php:14
+msgctxt "next set of search results"
+msgid "Next"
+msgstr ""
+
+#: ../calacas-theme/template-parts/content/pagination.php:15
+msgid "Page navigation"
+msgstr ""
+
+#: ../calacas-theme/template-parts/header/navigation.php:16
+msgid "Main menu"
+msgstr ""
+
+#: ../calacas-theme/template-parts/header/navigation.php:39
+msgid "Open menu"
+msgstr ""
+
+#: ../calacas-theme/template-parts/header/navigation.php:49
+msgid "Menu"
+msgstr ""
+
+#: ../calacas-theme/templates/products.php:3
+msgid "Products"
+msgstr ""

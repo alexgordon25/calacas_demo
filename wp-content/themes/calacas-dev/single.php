@@ -1,8 +1,8 @@
 <?php
 /**
- * The template for displaying all pages
+ * The template for displaying all single posts
  *
- * @link https://codex.wordpress.org/Template_Hierarchy
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
  * @package wp_rig
  */
@@ -20,9 +20,10 @@ wp_rig()->print_styles( 'wp-rig-content' );
 		while ( have_posts() ) {
 			the_post();
 
-			get_template_part( 'template-parts/content/entry', 'page' );
+			get_template_part( 'template-parts/content/entry', get_post_type() );
 		}
 		?>
 	</main><!-- #primary -->
 <?php
+if ( 'post' == get_post_type() ) get_sidebar();
 get_footer();

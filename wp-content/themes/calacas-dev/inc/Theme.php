@@ -152,6 +152,7 @@ class Theme {
 			new Post_Thumbnails\Component(),
 			new Customizer\Component(),
 			new Styles\Component(),
+			new Miscellaneous\Component(),
 			new ACF\Component(),
 			new Custom_Post_Type\Component(),
 			new Custom_Theme_Settings\Component(),

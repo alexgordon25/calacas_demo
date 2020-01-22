@@ -12,24 +12,21 @@
 		padding-top: calc(($height / $width) * 100%);
 	}
 
-	> .inner-content {
+	& > .inner-content {
 		position: absolute;
 		top: 0;
 		left: 0;
 		right: 0;
 		bottom: 0;
 
-		.vid,
-		img {
+		& > .vid,
+		& > img {
 			position: absolute;
 			top: 50%;
 			left: 50%;
 			transform: translate(-50%, -50%);
 			width: 100%;
-			height: auto;
-			width: auto;
-			max-width: none;
-			height: 100%;
+        	height: auto;
 		}
 	}
 }
@@ -46,15 +43,15 @@
 		padding-top: calc(($height / $width) * 100%);
 	}
 
-	> .inner-content {
+	& > .inner-content {
 		position: absolute;
 		top: 0;
 		left: 0;
 		right: 0;
 		bottom: 0;
 
-		.vid,
-		img {
+		& > .vid,
+		& > img {
 			position: absolute;
 			top: 50%;
 			left: 50%;

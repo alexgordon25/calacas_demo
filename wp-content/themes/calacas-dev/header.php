@@ -39,21 +39,21 @@ namespace WP_Rig\WP_Rig;
 		<div class="fluid-container">
 			<div class="flex content-between align-center">
 				<div class="flex content-start align-center">
-					<button class="ui-menu-toggle mr-3" data-modal-target="modal-nav">
+					<!-- <button class="ui-menu-toggle mr-3" data-modal-target="modal-nav">
 						<div class="icon-toggle">
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</div>
-					</button>
-				</div>
-				<div class="flex content-center align-center">
+					</button> -->
 					<?php get_template_part( 'template-parts/header/branding' ); ?>
 				</div>
-				<div class="flex content-end align-center">
+				<div class="flex content-center align-center">
 
+				</div>
+				<div class="flex content-end align-center">
+					<?php get_template_part( 'template-parts/header/navigation' ); ?>
 				</div>
 			</div>
 		</div>
 	</header><!-- #masthead -->
-	<?php get_template_part( 'template-parts/header/navigation' ); ?>

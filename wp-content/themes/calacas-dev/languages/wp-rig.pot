@@ -1,4 +1,4 @@
-# Copyright (C) 2019 WP Rig
+# Copyright (C) 2020 WP Rig
 # This file is distributed under the same license as the WP Rig package.
 msgid ""
 msgstr ""
@@ -59,6 +59,12 @@ msgstr ""
 msgid "WP Rig requires at least PHP version %1$s. You are running version %2$s. Please update and try again."
 msgstr ""
 
+#. translators: get the title of the video.
+#. translators: get the title of the video.
+#: inc/Carousel/Component.php:154, inc/Custom_Block/Component.php:372
+msgid "Video Background"
+msgstr ""
+
 #: inc/Comments/Component.php:132
 msgid "New comment(s)"
 msgstr ""
@@ -67,122 +73,322 @@ msgstr ""
 msgid "Theme Options"
 msgstr ""
 
-#: inc/Custom_Block_Category/Component.php:53
-msgid "Gordon Web Studio Blocks"
+#: inc/Custom_Block/Component.php:69
+msgid "Hero"
 msgstr ""
 
-#: inc/Custom_Post_Type/Component.php:43
+#: inc/Custom_Block/Component.php:70
+msgid "Custom Hero block."
+msgstr ""
+
+#: inc/Custom_Block/Component.php:86
+msgid "Slideshow"
+msgstr ""
+
+#: inc/Custom_Block/Component.php:87
+msgid "Custom Slideshow block."
+msgstr ""
+
+#: inc/Custom_Block_Category/Component.php:55
+msgid "Calacas Blocks"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:45
 msgctxt "Post Type General Name"
-msgid "Products"
+msgid "Festivals"
 msgstr ""
 
-#: inc/Custom_Post_Type/Component.php:44
+#: inc/Custom_Post_Type/Component.php:46
 msgctxt "Post Type Singular Name"
-msgid "Product"
+msgid "Festival"
 msgstr ""
 
-#: inc/Custom_Post_Type/Component.php:45, inc/Custom_Post_Type/Component.php:46
-msgid "Products"
-msgstr ""
-
-#: inc/Custom_Post_Type/Component.php:47
-msgid "Products Archives"
-msgstr ""
-
-#: inc/Custom_Post_Type/Component.php:48
-msgid "Products Attributes"
-msgstr ""
-
-#: inc/Custom_Post_Type/Component.php:49
-msgid "Parent Item:"
+#: inc/Custom_Post_Type/Component.php:47, inc/Custom_Post_Type/Component.php:48, inc/Custom_Post_Type/Component.php:49
+msgid "Festivals"
 msgstr ""
 
 #: inc/Custom_Post_Type/Component.php:50
-msgid "All Products"
+msgid "Festivals Attributes"
 msgstr ""
 
-#: inc/Custom_Post_Type/Component.php:51
-msgid "Add New Product"
+#: inc/Custom_Post_Type/Component.php:51, inc/Custom_Post_Type/Component.php:118, inc/Custom_Post_Type/Component.php:185
+msgid "Parent Item:"
 msgstr ""
 
 #: inc/Custom_Post_Type/Component.php:52
-msgid "Add New"
+msgid "All Festivals"
 msgstr ""
 
 #: inc/Custom_Post_Type/Component.php:53
-msgid "New Product"
+msgid "Add New Festival"
 msgstr ""
 
-#: inc/Custom_Post_Type/Component.php:54
-msgid "Edit Product"
+#: inc/Custom_Post_Type/Component.php:54, inc/Custom_Post_Type/Component.php:121, inc/Custom_Post_Type/Component.php:188
+msgid "Add New"
 msgstr ""
 
 #: inc/Custom_Post_Type/Component.php:55
-msgid "Update Product"
+msgid "New Festival"
 msgstr ""
 
 #: inc/Custom_Post_Type/Component.php:56
-msgid "View Product"
+msgid "Edit Festival"
 msgstr ""
 
 #: inc/Custom_Post_Type/Component.php:57
-msgid "View Products"
+msgid "Update Festival"
 msgstr ""
 
 #: inc/Custom_Post_Type/Component.php:58
-msgid "Search Product"
+msgid "View Festival"
 msgstr ""
 
 #: inc/Custom_Post_Type/Component.php:59
-msgid "Not found"
+msgid "View Festivals"
 msgstr ""
 
 #: inc/Custom_Post_Type/Component.php:60
+msgid "Search Festival"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:61, inc/Custom_Post_Type/Component.php:128, inc/Custom_Post_Type/Component.php:195
+msgid "Not found"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:62, inc/Custom_Post_Type/Component.php:129, inc/Custom_Post_Type/Component.php:196
 msgid "Not found in Trash"
 msgstr ""
 
-#: inc/Custom_Post_Type/Component.php:61
-msgid "Product Featured Image"
-msgstr ""
-
-#: inc/Custom_Post_Type/Component.php:62
-msgid "Set product featured image"
-msgstr ""
-
 #: inc/Custom_Post_Type/Component.php:63
-msgid "Remove product featured image"
+msgid "Festival Featured Image"
 msgstr ""
 
 #: inc/Custom_Post_Type/Component.php:64
-msgid "Use as product featured image"
+msgid "Set festival featured image"
 msgstr ""
 
 #: inc/Custom_Post_Type/Component.php:65
-msgid "Insert into product"
+msgid "Remove festival featured image"
 msgstr ""
 
 #: inc/Custom_Post_Type/Component.php:66
-msgid "Uploaded to this product"
+msgid "Use as festival featured image"
 msgstr ""
 
 #: inc/Custom_Post_Type/Component.php:67
-msgid "Product list"
+msgid "Insert into festival"
 msgstr ""
 
 #: inc/Custom_Post_Type/Component.php:68
-msgid "Products list navigation"
+msgid "Uploaded to this festival"
 msgstr ""
 
 #: inc/Custom_Post_Type/Component.php:69
-msgid "Filter Products list"
+msgid "Festival list"
 msgstr ""
 
-#: inc/Custom_Post_Type/Component.php:78
-msgid "Product"
+#: inc/Custom_Post_Type/Component.php:70
+msgid "Festivals list navigation"
 msgstr ""
 
-#: inc/Custom_Post_Type/Component.php:79
-msgid "Product Description"
+#: inc/Custom_Post_Type/Component.php:71
+msgid "Filter Festivals list"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:80
+msgid "Festival"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:81
+msgid "List of Music Festivals."
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:112
+msgctxt "Post Type General Name"
+msgid "Events"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:113
+msgctxt "Post Type Singular Name"
+msgid "Event"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:114, inc/Custom_Post_Type/Component.php:115, inc/Custom_Post_Type/Component.php:116
+msgid "Events"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:117
+msgid "Events Attributes"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:119
+msgid "All Events"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:120
+msgid "Add New Event"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:122
+msgid "New Event"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:123
+msgid "Edit Event"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:124
+msgid "Update Event"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:125
+msgid "View Event"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:126
+msgid "View Events"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:127
+msgid "Search Event"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:130
+msgid "Event Featured Image"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:131
+msgid "Set event featured image"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:132
+msgid "Remove event featured image"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:133
+msgid "Use as event featured image"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:134
+msgid "Insert into event"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:135
+msgid "Uploaded to this event"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:136
+msgid "Event list"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:137
+msgid "Events list navigation"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:138
+msgid "Filter Events list"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:147
+msgid "Event"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:148
+msgid "List of Concerts and Events."
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:179
+msgctxt "Post Type General Name"
+msgid "Artists"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:180
+msgctxt "Post Type Singular Name"
+msgid "Artist"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:181, inc/Custom_Post_Type/Component.php:182, inc/Custom_Post_Type/Component.php:183
+msgid "Artists"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:184
+msgid "Artists Attributes"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:186
+msgid "All Artists"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:187
+msgid "Add New Artist"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:189
+msgid "New Artist"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:190
+msgid "Edit Artist"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:191
+msgid "Update Artist"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:192
+msgid "View Artist"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:193
+msgid "View Artists"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:194
+msgid "Search Artist"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:197
+msgid "Artist Featured Image"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:198
+msgid "Set artist featured image"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:199
+msgid "Remove artist featured image"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:200
+msgid "Use as artist featured image"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:201
+msgid "Insert into artist"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:202
+msgid "Uploaded to this artist"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:203
+msgid "Artist list"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:204
+msgid "Artists list navigation"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:205
+msgid "Filter Artists list"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:214
+msgid "Artist"
+msgstr ""
+
+#: inc/Custom_Post_Type/Component.php:215
+msgid "List of Artists"
 msgstr ""
 
 #: inc/Editor/Component.php:65, inc/Nav_Menus/Component.php:68
@@ -194,82 +400,74 @@ msgid "Primary Light"
 msgstr ""
 
 #: inc/Editor/Component.php:75
-msgid "Secondary"
+msgid "Primary Dark"
 msgstr ""
 
 #: inc/Editor/Component.php:80
-msgid "Secondary Light"
+msgid "Secondary"
 msgstr ""
 
 #: inc/Editor/Component.php:85
-msgid "Red"
+msgid "Secondary Light"
 msgstr ""
 
 #: inc/Editor/Component.php:90
-msgid "Green"
+msgid "Secondary Dark"
 msgstr ""
 
 #: inc/Editor/Component.php:95
-msgid "Blue"
-msgstr ""
-
-#: inc/Editor/Component.php:100
-msgid "Yellow"
-msgstr ""
-
-#: inc/Editor/Component.php:105
 msgid "Black"
 msgstr ""
 
-#: inc/Editor/Component.php:110
+#: inc/Editor/Component.php:100
 msgid "Gray Dark"
 msgstr ""
 
-#: inc/Editor/Component.php:115
+#: inc/Editor/Component.php:105
 msgid "Gray"
 msgstr ""
 
-#: inc/Editor/Component.php:120
+#: inc/Editor/Component.php:110
 msgid "Gray-Light"
 msgstr ""
 
-#: inc/Editor/Component.php:125
+#: inc/Editor/Component.php:115
 msgid "Light"
 msgstr ""
 
-#: inc/Editor/Component.php:130
+#: inc/Editor/Component.php:120
 msgid "White"
 msgstr ""
 
-#: inc/Editor/Component.php:147
+#: inc/Editor/Component.php:137
 msgid "Small"
 msgstr ""
 
-#: inc/Editor/Component.php:148
+#: inc/Editor/Component.php:138
 msgid "S"
 msgstr ""
 
-#: inc/Editor/Component.php:153
+#: inc/Editor/Component.php:143
 msgid "Medium"
 msgstr ""
 
-#: inc/Editor/Component.php:154
+#: inc/Editor/Component.php:144
 msgid "M"
 msgstr ""
 
-#: inc/Editor/Component.php:159
+#: inc/Editor/Component.php:149
 msgid "Large"
 msgstr ""
 
-#: inc/Editor/Component.php:160
+#: inc/Editor/Component.php:150
 msgid "L"
 msgstr ""
 
-#: inc/Editor/Component.php:165
+#: inc/Editor/Component.php:155
 msgid "Larger"
 msgstr ""
 
-#: inc/Editor/Component.php:166
+#: inc/Editor/Component.php:156
 msgid "XL"
 msgstr ""
 
@@ -298,7 +496,7 @@ msgid "Add widgets here."
 msgstr ""
 
 #. translators: %s: stylesheet handle
-#: inc/Styles/Component.php:235
+#: inc/Styles/Component.php:247
 msgid "Invalid theme stylesheet handle: %s"
 msgstr ""
 
@@ -332,11 +530,15 @@ msgstr ""
 msgid "No theme component with the slug %s exists."
 msgstr ""
 
-#: template-parts/content/entry-attachment.php:33, template-parts/content/entry-page.php:32, template-parts/content/entry.php:32
+#: template-parts/content/entry-artist.php:102
+msgid "Artist profile"
+msgstr ""
+
+#: template-parts/content/entry-artist.php:131, template-parts/content/entry-attachment.php:33, template-parts/content/entry-event.php:131, template-parts/content/entry-festival.php:158, template-parts/content/entry-page.php:32, template-parts/content/entry.php:32
 msgid "Previous:"
 msgstr ""
 
-#: template-parts/content/entry-attachment.php:43, template-parts/content/entry-page.php:33, template-parts/content/entry.php:33
+#: template-parts/content/entry-artist.php:132, template-parts/content/entry-attachment.php:43, template-parts/content/entry-event.php:132, template-parts/content/entry-festival.php:159, template-parts/content/entry-page.php:33, template-parts/content/entry.php:33
 msgid "Next:"
 msgstr ""
 
@@ -485,4 +687,8 @@ msgstr ""
 
 #: template-parts/header/navigation.php:49
 msgid "Menu"
+msgstr ""
+
+#: templates/products.php:3
+msgid "Products"
 msgstr ""

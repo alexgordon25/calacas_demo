@@ -136,7 +136,7 @@ class Component implements Component_Interface, Templating_Component_Interface {
 				?>
 			</div>
 			<?php
-			if ( 'absolute' === $t_icon_position || $t_icon_color ) :
+			if ( 'absolute' === $t_icon_position || 'custom' === $t_icon_position || $t_icon_color ) :
 				?>
 				<style type="text/css">
 					#<?php echo esc_attr( $block_id ); ?> .video-trigger {

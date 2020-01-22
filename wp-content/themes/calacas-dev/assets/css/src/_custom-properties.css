@@ -6,23 +6,23 @@
  **/
 
 :root {
-	--global-font-color: #545454;
-	--global-background-color: #fff;
-	--global-font-family: proxima-nova, sans-serif;
+	--global-font-color: #ffffff;
+	--global-background-color: #1c1c2a;
+	--global-font-family: "Poppins", sans-serif;
 	--global-font-size: 1rem;
 	--global-font-line-height: 1.2;
-	--highlight-font-family: proxima-nova, sans-serif;
-	--content-width: 45rem;
+	--highlight-font-family: "Russo One", sans-serif;
+	--content-width: 1200px;
 	--element-height: 3rem;
 	--dropdown-symbol-width: 0.7em;
 
 	/* Custom editor colors */
-	--color-theme-primary: #259d76;
-	--color-theme-primary-light: #a3f7b5;
-	--color-theme-primary-dark: #134d24;
-	--color-theme-secondary: #5d554a;
-	--color-theme-secondary-light: #ab8e77;
-	--color-theme-secondary-dark: #545454;
+	--color-theme-primary: #00d7c8;
+	--color-theme-primary-light: #73f3ea;
+	--color-theme-primary-dark: #00a79b;
+	--color-theme-secondary: #1c1c2a;
+	--color-theme-secondary-light: #3e3e55;
+	--color-theme-secondary-dark: #14141d;
 	--color-theme-red: #c0392b;
 	--color-theme-green: #27ae60;
 	--color-theme-blue: #2980b9;
@@ -30,18 +30,18 @@
 	--color-theme-black: #1c2833;
 	--color-theme-white: #fff;
 	--color-theme-light: #f8f8f8;
-	--color-theme-gray: #bbb;
+	--color-theme-gray: #9e9e9e;
 	--color-theme-gray-light: #e9e9e9;
 	--color-theme-gray-dark: #545454;
 
 	/* Link colors */
 	--color-link: var(--color-theme-primary);
 	--color-link-hover: var(--color-theme-primary-dark);
-	--color-link-visited: #855d63;
+	--color-link-visited: var(--color-theme-primary-dark);
 
 	/* Quote colors */
 	--color-quote-border: #000;
-	--color-quote-citation: #6c7781;
+	--color-quote-citation: #7d7d8f;
 
 	/* Custom editor font sizes */
 	--font-size-small: calc(var(--global-font-size) * 0.707);
@@ -60,26 +60,24 @@
 	--fs8: calc(var(--global-font-size) * 0.65);
 
 
-	/*letter spacing*/	
-	--letter-spacing-h1: 0.176rem;	
+	/*letter spacing*/
+	--letter-spacing-0: none;
+	--letter-spacing-h1: 0.176rem;
 	--letter-spacing-h2: 0.053rem;
 	--letter-spacing-h3: 1.73px;
 	--letter-spacing-h4: 0.86px;
-	--letter-spacing-h5: 1.29px;	
+	--letter-spacing-h5: 1.29px;
 	--letter-spacing-sh: 5.72px;
 	--letter-spacing-lead: 1.29px;
 	--letter-spacing-p: 1.1px;
 	--letter-spacing-small: 2.76px;
-	
-
 
 	/*font-weight*/
-	--fw-thin:200;
-	--fw-light:300;
-	--fw-regular:400;
-	--fw-medium:500;
-
-
+	--fw-thin: 200;
+	--fw-light: 300;
+	--fw-regular: 400;
+	--fw-medium: 500;
+	--fw-bold: 700;
 
 	/* Borders. */
 	--border-size: 1px;

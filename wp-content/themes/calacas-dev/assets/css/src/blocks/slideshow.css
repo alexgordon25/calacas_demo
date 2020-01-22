@@ -120,6 +120,10 @@
 	}
 
 	& .arrows {
-		top: calc(50% - 7rem);
+		top: calc(90% - 7rem);
+
+		@media (--breakpoint-query) {
+			top: calc(50% - 7rem);
+		}
 	}
 }

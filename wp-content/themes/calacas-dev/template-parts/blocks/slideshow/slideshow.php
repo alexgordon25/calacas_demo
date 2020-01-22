@@ -200,7 +200,7 @@ wp_rig()->display_block_options(
 										wp_rig()->get_tagline( $tagline, 'block-tagline text-uppercase letter-space-2 mb-0' );
 
 										// Print Headline.
-										wp_rig()->get_headline( $headline, 'block-headline sup-h1 mb-2', $headline_level );
+										wp_rig()->get_headline( $headline, 'block-headline sup-h2 mb-2', $headline_level );
 
 										// Print Caption.
 										wp_rig()->get_caption( $caption, $rich_content, $caption_wysiwyg, 'block-caption h5' );

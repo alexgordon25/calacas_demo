@@ -10,7 +10,10 @@ namespace WP_Rig\WP_Rig;
 ?>
 
 <div class="site-info">
-	
+	<div class="copyright position-relative">
+		<small class="mb-0">Copyright © 2020 Calacas - All Right Reserved</small>
+	</div>
+
 	<?php
 	if ( function_exists( 'the_privacy_policy_link' ) ) {
 		the_privacy_policy_link( '<span class="sep"> | </span>' );

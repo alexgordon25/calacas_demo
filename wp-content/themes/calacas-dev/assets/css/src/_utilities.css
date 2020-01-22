@@ -673,3 +673,59 @@ img.align-right {
 .half-height {
 	height: 50vh;
 }
+
+/* Icons Sizes */
+.icon-24 {
+	width: 24px;
+	height: 24px;
+}
+
+.icon-32 {
+	width: 32px;
+	height: 32px;
+}
+
+.icon-64 {
+	width: 64px;
+	height: 64px;
+}
+
+.icon-80 {
+	width: 80px;
+	height: 80px;
+}
+
+.icon-100 {
+	width: 100px;
+	height: 100px;
+}
+
+.icon-120 {
+	width: 120px;
+	height: 120px;
+}
+
+.icon-160 {
+	width: 160px;
+	height: 160px;
+}
+
+.icon-180 {
+	width: 180px;
+	height: 180px;
+}
+
+.icon-200 {
+	width: 200px;
+	height: 200px;
+}
+
+.icon-250 {
+	width: 250px;
+	height: 250px;
+}
+
+.icon-300 {
+	width: 300px;
+	height: 300px;
+}

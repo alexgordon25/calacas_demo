@@ -105,10 +105,10 @@ class Component implements Component_Interface, Templating_Component_Interface {
 		}
 
 		// Enqueue Typekit Fonts.
-		$typekit_fonts_url = $this->get_typekit_fonts_url();
-		if ( ! empty( $typekit_fonts_url ) ) {
-			wp_enqueue_style( 'wp-typekit-fonts', $typekit_fonts_url, array(), null ); // phpcs:ignore WordPress.WP.EnqueuedResourceParameters.MissingVersion
-		}
+		// $typekit_fonts_url = $this->get_typekit_fonts_url();
+		// if ( ! empty( $typekit_fonts_url ) ) {
+		// 	wp_enqueue_style( 'wp-typekit-fonts', $typekit_fonts_url, array(), null ); // phpcs:ignore WordPress.WP.EnqueuedResourceParameters.MissingVersion
+		// }
 
 		$css_uri = get_theme_file_uri( '/assets/css/' );
 		$css_dir = get_theme_file_path( '/assets/css/' );
@@ -191,10 +191,10 @@ class Component implements Component_Interface, Templating_Component_Interface {
 		}
 
 		// Enqueue Typekit Fonts.
-		$typekit_fonts_url = $this->get_typekit_fonts_url();
-		if ( ! empty( $typekit_fonts_url ) ) {
-			add_editor_style( $this->get_typekit_fonts_url() );
-		}
+		// $typekit_fonts_url = $this->get_typekit_fonts_url();
+		// if ( ! empty( $typekit_fonts_url ) ) {
+		// 	add_editor_style( $this->get_typekit_fonts_url() );
+		// }
 
 		// Enqueue block editor stylesheet.
 		add_editor_style( 'assets/css/editor/editor-styles.min.css' );
@@ -375,7 +375,8 @@ class Component implements Component_Interface, Templating_Component_Interface {
 		}
 
 		$google_fonts = array(
-			// 'Raleway' => array( '200', '300', '400', '500', '600', '700' ),
+			'Poppins' => array( '400', '700' ),
+			'Russo+One' => array( '400' ),
 		);
 
 		/**
