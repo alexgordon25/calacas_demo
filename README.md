@@ -2,6 +2,8 @@
 
 # Calacas WP Custom Theme
 
+*[DEMO](https://calacas.danielgordon.dev)*
+
 Calacas WP Theme is a WordPress Custom Theme based on the starter theme boilerplate of [WP Rig](https://github.com/wprig/wprig). Calacas theme is an adaptation of my personal workflow applied inside the benefits of wp-rig features. 
 
 Some extra features that you'll find in this theme are:
